@@ -28,7 +28,7 @@ export default function Main() {
       <StatusBar backgroundColor="black" style="light" />
       <PaperProvider>
         <NavigationContainer>
-          <Stack.Navigator initialRouteName="HomeMobile-Based Notification System for Sicat College">
+          <Stack.Navigator initialRouteName="Home">
             <Stack.Screen
               name="Home"
               component={HomeScreen}
